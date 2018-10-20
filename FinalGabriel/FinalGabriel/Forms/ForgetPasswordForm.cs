@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace FinalGabriel
 {
-    public partial class Form1 : Form
+    public partial class ForgetPasswordForm : Form
     {
-        public Form1()
+        public ForgetPasswordForm()
         {
             InitializeComponent();
+        }
+
+        private void pbBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
